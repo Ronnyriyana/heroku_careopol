@@ -2,9 +2,9 @@
   "name": "carepol",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "publish.js",
   "scripts": {
-    "start": "node publish.js"
+    "start": "pm2 start publish.js"
   },
   "keywords": [],
   "author": "",
